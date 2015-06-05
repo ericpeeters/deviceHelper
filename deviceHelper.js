@@ -1,4 +1,4 @@
-(function($, window, document, undefined) {
+(function(window, document, undefined) {
 
   window.deviceHelper = {
     isTablet: navigator.userAgent.indexOf('Android') > -1 && navigator.userAgent.indexOf('Mobile') === -1 || !! navigator.userAgent.match(/Tablet|iPad|Playbook/),
@@ -19,4 +19,4 @@
     isiOS: !! navigator.userAgent.match(/iP(hone|od|ad)/)
   }
 
-})(jQuery, window, document);
+})(window, document);
